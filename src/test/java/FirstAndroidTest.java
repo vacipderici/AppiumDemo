@@ -24,10 +24,7 @@ public class FirstAndroidTest {
       driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"),caps);
 
   }
-    @Test
-    public  void click_App_Button(){
-      driver.findElementsByAccessibilityId("app");
-    }
+
 
     @AfterTest
     public void TearDown(){
