@@ -48,10 +48,10 @@ public class Swipe_Android_Test {
 
 
 
-        // AndroidElement pic1 = (AndroidElement) driver.findElements(By.className("android.widget.ImageView")).get(0);
+         AndroidElement pic1 = (AndroidElement) driver.findElements(By.className("android.widget.ImageView")).get(0);
 
-       // actions.press(ElementOption.element((pic1))).waitAction()
-        //        .moveTo(PointOption.point(-20,210)).release().perform();
+        actions.press(ElementOption.element((pic1))).waitAction()
+                .moveTo(PointOption.point(-20,210)).release().perform();
 
 
 }
