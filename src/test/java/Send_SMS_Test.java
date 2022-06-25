@@ -20,7 +20,7 @@ public class Send_SMS_Test {
         caps.setCapability("automationName","UiAutomator2");
         caps.setCapability("deviceName","HUAWEI P40 Lite");
         caps.setCapability("appPackage","com.android.mms");
-        caps.setCapability("appActivity","com.huawei.mms.ui.ConversationList");
+        caps.setCapability("appActivity","com.android.mms.ui.ConversationList");
 
 
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"),caps);
@@ -29,7 +29,7 @@ public class Send_SMS_Test {
 
     @Test
     public void send_SMS(){
-
+        driver.sendSMS("553-611-14-83","trying");
     }
 
     @AfterTest
