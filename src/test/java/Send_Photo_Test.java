@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Send_SMS_Test {
+public class Send_Photo_Test {
 
     public AndroidDriver driver;
     public AndroidTouchAction actions;
